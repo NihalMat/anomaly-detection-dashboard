@@ -137,4 +137,5 @@ def update_graph(forecast_choice, anomaly_method, event_toggle, start_date, end_
 
 # Run server
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run(debug=True)
+
